@@ -9,10 +9,10 @@ pre_build:
      - echo Nothing to do in the pre_build
  build:
    commands:
-     - echo Build strating date
+     - echo Build strating 'date'
  post_build:
    commands:
-    - echo Build completed on date
+    - echo Build completed on 'date'
  artifacts:
  files:
  - '**/*'
